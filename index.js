@@ -3,8 +3,8 @@ const body = document.getElementById('#main');
 main.remove('#main');
 
 const newHeader = document.createElement('h1');
-newHeader.setAttribute('h1', 'victory');
-newHeader.textContent = 'H1';
+newHeader.setAttribute('id', 'victory');
+newHeader.textContent = 'James is the champion';
 const victory = document.getElementById('victory');
 box.appendChild(newHeader);
 
